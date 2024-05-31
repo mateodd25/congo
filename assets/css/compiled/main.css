@@ -3131,7 +3131,9 @@ code {
 .rtl\:left-0:where([dir="rtl"], [dir="rtl"] *) {
   left: 0px;
 }
-
+:is([dir="ltr"] .ltr\:mr-4) {
+  margin-right: 1rem;
+}
 .rtl\:block:where([dir="rtl"], [dir="rtl"] *) {
   display: block;
 }
